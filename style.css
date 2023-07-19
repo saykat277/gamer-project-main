@@ -492,3 +492,38 @@ background: rgba(11, 2, 35, 0.10);
 }
 
 /*---------------- Footer part end -----------*/
+
+
+@media screen and (max-width:576px) {
+    .nav-bar{
+        flex-direction: column;
+        width: 100%;
+    }
+    .menu-item{
+        flex-direction: column;
+    }
+    .banner-part{
+        flex-direction: column;
+    }
+    .gamer-part{
+        flex-direction: column;
+    }
+    .online-game-items{
+        flex-direction: column;
+    }
+    .play-instantly-part{
+        flex-direction: column;
+    }
+    .careers-part{
+        flex-direction: column;
+    }
+    .total-games{
+        flex-direction: column;
+    }
+    .footer-icon{
+        flex-direction: column;
+    }
+    .footers-icons{
+        flex-direction: column;
+    }
+}
